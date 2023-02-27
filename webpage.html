@@ -44,22 +44,22 @@ h1{
    <h2>@Lists</h2>
    <h3>Unordered Lists</h3>
    <P>We don't want to show bullets in the unordered list.We'll remove that with CSS.</P>
-
+<ul  class="list-non-bullet">
     <li>item One</li>
     <li>item Two</li>
     <li>item Three</li>
-   
+</ul>
     <h3>Inline Lists</h3>
     <p>Insted of going in a new row, we will create a list which will take columns.</p>
-    
-    <il>item One    </il>
-    <il>   item Two    </il>
-    <il>item Three  </il>
-
+<ul  class="list-non-bullet">
+    <li class="list-inline">item One </li>
+    <li class="list-inline">item Two  </li>
+    <li class="list-inline">item Three  </li>
+</ul>
     <h3>reversed ordered list</h3>
     <p>Counting of will go reverse for the list</p>
-    <ol>
-        <li>somthing</li>
+    <ol reversed>
+        <li> somthing</li>
         <li>somthing else</li>
         <li>somthing elser</li>
     </ol>
@@ -68,11 +68,19 @@ h1{
     <h2>@Nav</h2>
     <p>Navigation is used on the top of the page and used to get to different pages.</p>
 
-    <nav>
-        <ul>IamAshwini</ul>
-        <li>Home</li>
-        <li>Projects</li>
-        <li>About</li>
+    <nav class="navigation">
+        <div class="nav-brand">IamAshwini</div>
+        <ul class="unordered">
+        <li class="list-inline" >
+            <a class="link link-active" href="/" >Home</a>
+        </li>
+        <li class="list-inline">
+            <a class="link " href="/">Projects</a>
+        </li >
+        <li class='list-inline'>
+            <a class="link" href="/">About </a>
+        </li>
+</ul>
     </nav>
     <hr>
     <h2>Header</h2>
