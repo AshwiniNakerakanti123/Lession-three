@@ -8,6 +8,7 @@ hr{
 }
 :root{
     --primary-color:blue;
+    --section-off-screen:gray:
 }
 
 .container{
@@ -72,3 +73,29 @@ hr{
 .navigation .link-active{
     font-weight: bold;
 }
+/* image */
+.person{
+    padding: 2rem ;
+}
+ .person .person-img{
+    margin: auto;
+   display: block;
+    max-width: 350px;
+   
+}
+.person .person-header{
+   text-align: center;
+   /* color:blue; */
+} 
+/* Section */
+.section{
+    padding: 1rem;
+    /* text-align: center; */
+}
+.section,h1{
+   text-align: center;
+   padding:1rem 0rem ;
+}
+.off-scr{
+    background-color: gray;
+ }
