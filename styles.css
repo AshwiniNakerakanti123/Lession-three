@@ -4,7 +4,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .root{
-    --primary-color:
+    --primary-color:blue;
 }
 .container{
     
@@ -13,14 +13,26 @@ body{
 }
 .container-center{
    max-width:600px;
-   margin:auto
+   margin:auto;
 
 }
 /* links */
 
-.links{
-   background-color: blue;
-   color:white
-   /* padding = 1rem */
-  
+.link{
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    
+}
+.link-primary {
+   
+    background-color:blue;
+    color:white;
+    border-radius: 0.5rem;
+}
+.link-secondary{
+    border-radius: 0.5rem;
+    border-color: blue;
+    color:blue;
+    border:solid;
+    /* border:1px solid blue; */
 }
