@@ -22,6 +22,65 @@
         </li>
 </ul>
     </nav> 
+   <h1>List of Blogs</h1>
+   <section>
+    <h2><a class="link" href="WebpgIntro.html">Introduction</a></h2>
+    <small>10th Feb 2023</small>
+    <p>I am very happy to introduce my blogs here...
+     If your interested u have see here 
+     Or else If your not interested u have to skip here ..Now worries.
 
+    </p>
+   </section>
+<section>
+ <h2><a class="link" href="WebpgHealth.html">Tips For Health</a></h2>
+ <small>1st March 2023</small>
+ <p>I am happy to introduce this Tips fo Health.
+    You will be know detailed in this Blog.
+ </p>
+</section>
+<section>
+    <h2>Human Condition</h2>
+    <p>Human Condition
+        Human Condition videos are primarily about people. 
+        Within the Human Condition category, the subcategories 
+        are "More than a Day Job", "Defiant", "No Way!?", and 
+        "Music to my <span id="dots">....</span><span id="more"> Ears".[12] More than a Day Job covers crafters, 
+        artist, innovators and regular people doing their job. 
+        These videos include a story about the man that runs
+         the last manual scoreboard or the first autistic actor 
+         to be cast as the lead in a play. Defiant videos are about
+          people who break expectations and societal norms that are 
+          put in for them. These videos include stories about a
+           bodybuilder with 1 arm and no legs or a Division
+            1 college football player that is completely blind. 
+            No Way videos are stories about people that many people don’t know.
+             One of these videos is about how a high school project inspired 
+             the 50-star American flag. The last section in Human Condition 
+             is Music to our Ears. Music to our Ears covers stories about 
+             songs and musicians that may be surprising. One of these stories 
+             includes one about the missing people choir. This choir is full of 
+             families and individuals of missing children who come together as a 
+             choir, turning their grief into hope.</span></p>
+             <button onclick="myClick()" id="myBtn">Show More</button>
+             <script>
+                function myClick(){
+                    var dots = document.getElementById("dots");
+                    var moreText = document.getElementById("more");
+                    var btnText = document.getElementById("myBtn");
+
+                    if(dots.style.display ==="none"){
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Show More";
+                        moreText.style.display = "none";
+                    }
+                    else{
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Show Less";
+                        moreText.style.display = "inline";
+                    }
+                }
+             </script> 
+</section>
 </body>
 </html>

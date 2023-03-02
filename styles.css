@@ -8,10 +8,9 @@ hr{
     margin: 2rem 0rem;
 }
 :root{
-    --primary-color:blue;
+    --primary-color:#495057;
     --section-off-screen:gray:
 }
-
 .container{
     
     padding-left: 1rem;
@@ -23,11 +22,14 @@ hr{
 
 }
 /* links */
+#more{
+    display:none;
+}
 
 .link{
     padding: 0.5rem 1rem;
     text-decoration: none;
-    
+    padding-bottom: 1rem ; 
 }
 .link-primary {
    
@@ -35,15 +37,18 @@ hr{
     color:white;
     border-radius: 0.5rem;
 }
+.link-Quiz{
+    color:coral;
+    
+}
 .link-secondary{
     border-radius: 0.5rem;
     border-color: var(--primary-color);
     color: var(--primary-color);
        border:solid;
-    /* border:1px solid blue; */
+       padding-bottom: 3rem;
+       padding-bottom:1rem;  
 }
-
-/* Lists */
 .list-non-bullet{
     list-style: none;
 }
@@ -51,19 +56,21 @@ hr{
     display: inline;
     padding: 0.5rem 1rem;
 }
-
-/* navigation */
+.work{
+    padding-top: 3rem;
+   
+    font-size: large;
+    font-weight: bold;
+}
 .navigation{
     text-decoration: none;
     background-color: var(--primary-color);
     color: white;
     border-bottom-left-radius: 1rem;
     padding: 1rem;
-
 }
 .navigation .link{
     color:white;
-    
 }
 .navigation .nav-brand{
     font-weight: bold;
@@ -99,24 +106,23 @@ hr{
 }
 .off-scr{
     background-color: #E5E7E9;
+    padding-bottom: 1rem;
  }
- /* Footer */
-
- .footer{
+.footer{
   background-color: var(--primary-color);
-   color: white;
-  
+  color: white;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
-  padding:1rem 1rem
-  
+  padding:3rem 1rem;
+  padding-top: 0.5rem;
+ 
  }
- .footer .link{
+.footer .link{
 color:white;
 text-align: center;
-
+padding-right: 5rem;
  }
- .footer ul{
+.footer ul{
    padding-inline-start: 0px;
  }
  
