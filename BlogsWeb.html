@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs Page</title>
     <link style href="styles.css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav class="navigation">
@@ -15,7 +16,7 @@
             <a class="link " href="/finalwebpage.html" >Home</a>
         </li>
         <li class="list-inline">
-            <a class="link " href="/Secondpage.html">Projects</a>
+            <a class="link " href="/ProjectWeb.html">Projects</a>
         </li >
         <li class='list-inline'>
             <a class="link link-active" href="/">Blogs</a>
@@ -37,7 +38,36 @@
  <small>1st March 2023</small>
  <p>I am happy to introduce this Tips fo Health.
     You will be know detailed in this Blog.
- </p>
+</p>
+<p>Dummy text: Its function as a filler or as a tool for comparing 
+    the visual impression of different typefaces<span id="dot">...</span><span id="large">Dummy text is text 
+    that is used in the publishing industry or by web designers to 
+    occupy the space which will later be filled with 'real' content. 
+    This is required when, for example, the final text is not yet available.
+     Dummy text is also known as 'fill text'. It is said that song composers
+      of the past used dummy texts as lyrics when writing melodies in order 
+      to have a 'ready-made' text to sing with the melody. Dummy texts have 
+      been in use by typesetters since the 16th century.</span> </p>
+      <button class="link link-primary" onclick="myFunction()" id="mybtn" >Read more</button> 
+      <!-- <a href="/" class="link link-primary">primary link</a> -->
+      <script>
+         function myFunction(){
+            var dots = document.getElementById("dot");
+                    var moreText = document.getElementById("large");
+                    var btnText = document.getElementById("mybtn");
+
+                    if(dots.style.display ==="none"){
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                        moreText.style.display = "none";
+                    }
+                    else{
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Read less";
+                        moreText.style.display = "inline";
+                    }
+                }
+      </script>
 </section>
 <section>
     <h2>Human Condition</h2>
@@ -62,7 +92,7 @@
              includes one about the missing people choir. This choir is full of 
              families and individuals of missing children who come together as a 
              choir, turning their grief into hope.</span></p>
-             <button onclick="myClick()" id="myBtn">Show More</button>
+             <button class="link link-primary" onclick="myClick()" id="myBtn">Show More</button>
              <script>
                 function myClick(){
                     var dots = document.getElementById("dots");
@@ -81,6 +111,25 @@
                     }
                 }
              </script> 
+             
 </section>
+<footer class="footer">
+    <p>Know about me here</p>
+    <ul>
+    <li class="list-inline">
+        <a class="link" href="https://Github.com">Github.com</a>
+        </li>
+    <li class="list-inline">
+        <a class="link" href="https://Linkdin.com">Linkdin.com</a>
+    </li>
+    <i  class="fa fa-twitter"></i>
+   
+    <li class="list-inline">
+
+        <a class="link" href="https://Twitter.com">Twitter.com</a>
+    </li>
+    
+</ul>
+ </footer>
 </body>
 </html>
